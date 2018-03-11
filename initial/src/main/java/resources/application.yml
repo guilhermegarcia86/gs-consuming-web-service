@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+    - ${name.profile}
+
+---
+
+spring:
+  profiles: local
+  
+package:
+  name: hello.wsdl
+  
+default:
+  uri: http://www.webservicex.com/stockquote.asmx
+  
+---
+
+spring:
+  profiles: dev
+  
+

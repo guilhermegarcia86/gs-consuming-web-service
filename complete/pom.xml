@@ -6,6 +6,9 @@
     <groupId>org.springframework</groupId>
     <artifactId>gs-consuming-web-service</artifactId>
     <version>0.1.0</version>
+    
+    <packaging>jar</packaging>
+    <name>gs-consuming-web-service</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,7 +41,7 @@
             <plugin>
                 <groupId>org.jvnet.jaxb2.maven2</groupId>
                 <artifactId>maven-jaxb2-plugin</artifactId>
-                <version>0.13.1</version>
+                <version>0.12.3</version>
                 <executions>
                     <execution>
                         <goals>
